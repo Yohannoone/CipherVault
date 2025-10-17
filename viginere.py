@@ -37,7 +37,7 @@ def encrypt(message, key):
 def encryption_handler():
 
     # Obtain the message input for encryption or decryption.
-    message = input('Write the message you want to encrypt')
+    message = input('Write the message you want to encrypt.')
     # Ensures the Message is alphabetic; if not, prints a message and stops the code.
     if not message.replace(" ", "").isalpha():
         print('The message should only contain letters and spaces.')
